@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="short icon" href="imagenes/HCicono.png">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css">
+    <link rel="stylesheet" href="estilos.CSS" type="text/css"/>
+    <title>Galería</title>
+    <!--FUENTES-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <script src="javascript/carrousel.js"></script>
+</head>
+  <body>
+    <div id="contenedorgaleria">
+      	<div id="encabezado">
+            <a href="Index.html"><img class="logo" src="imagenes/HCicono.png"></a>
+              <nav id="nav-encabezado">
+              	<a href="Index.html">Inicio</a>
+                  <a href="QuienesS.html">¿Quiénes Somos?</a>
+                  <a href="proyectos.html">Proyectos</a>
+                  <a href="galeria.html">Galería</a>
+                  <a href="equipo.html">Equipo</a>
+                  <a href="encuentranos.html">Encuéntranos</a>
+                  <a href="servicios.html">Servicios</a>
+              </nav>
+        </div>
+        <p id="tpr">Galería</p>
+        <div class="overlay">
+            <div class="slideshow">
+                <span class="btn_cerrar">&times;</span>
+                <div class="botones atras">
+                    <i class="fas fa-arrow-circle-left"></i>
+                </div>
+                <div class="botones adelante">
+                    <i class="fas fa-arrow-circle-right"></i>
+                </div>
+                <img src="" alt="" id="img_slideshow">
+            </div>
+        </div>
+        <!--div id="cgaleria"-->
+            <section class="ggaleria">
+                <div class="columna">
+                    <img src="imagenes/galeria/uno.png" alt="" data-img-mostrar="0">
+                    <img src="imagenes/galeria/dos.jpg" alt="" data-img-mostrar="1">
+                    <img src="imagenes/galeria/tres.jpg" alt="" data-img-mostrar="2">
+                    <img src="imagenes/galeria/cuatro.jpg" alt="" data-img-mostrar="3">
+                    <img src="imagenes/galeria/cinco.jpg" alt="" data-img-mostrar="4">
+                </div>
+                <div class="columna">
+                    <img src="imagenes/galeria/seis.jpg" alt="" data-img-mostrar="5">
+                    <img src="imagenes/galeria/siete.jpg" alt="" data-img-mostrar="6">
+                    <img src="imagenes/galeria/ocho.jpg" alt="" data-img-mostrar="7">
+                    <img src="imagenes/galeria/nueve.jpg" alt="" data-img-mostrar="8">
+                    <img src="imagenes/galeria/diez.jpg" alt="" data-img-mostrar="9">
+                </div>
+                <div class="columna">
+                    <img src="imagenes/galeria/once.jpg" alt="" data-img-mostrar="10">
+                    <img src="imagenes/galeria/doce.jpg" alt="" data-img-mostrar="11">
+                    <img src="imagenes/galeria/trece.jpg" alt="" data-img-mostrar="12">
+                    <img src="imagenes/galeria/catorce.jpg" alt="" data-img-mostrar="13">
+                    <img src="imagenes/galeria/quince.jpg" alt="" data-img-mostrar="14">
+                </div>
+             <!--
+                <a href="#image1">
+                    <img src="imagenes/galeria/uno.png" alt="">
+                </a>
+                <a href="#image2">
+                    <img src="imagenes/galeria/dos.jpg" alt="">
+                </a>
+                <a href="#image3">
+                    <img src="imagenes/galeria/tres.jpg" alt="">
+                </a>
+                <a href="#image4">
+                    <img src="imagenes/galeria/cuatro.jpg" alt="">
+                </a>
+                <a href="#image5">
+                    <img src="imagenes/galeria/cinco.jpg" alt="">
+                </a>
+                <a href="#image6">
+                    <img src="imagenes/galeria/seis.jpg" alt="">
+                </a>
+                <a href="#image7">
+                    <img src="imagenes/galeria/siete.jpg" alt="">
+                </a>
+                <a href="#image8">
+                    <img src="imagenes/galeria/ocho.jpg" alt="">
+                </a>
+                <a href="#image9">
+                    <img src="imagenes/galeria/nueve.jpg" alt="">
+                </a>
+                <a href="#image10">
+                    <img src="imagenes/galeria/diez.jpg" alt="">
+                </a>
+                 -->
+            </section>
+       
+
+            <!--article class="light-box" id="image1">
+                <a href="#image10" class="next"><i class="fas fa-arrow-left"></i></a>
+                <img src="imagenes/galeria/uno.png" alt="">
+                <a href="#image2" class="next"><i class="fas fa-arrow-right"></i></a>
+                <a href="#" class="close">X</a>
+            </article>
+
+            <article class="light-box" id="image2">
+                <a href="#image1" class="next"><i class="fas fa-arrow-left"></i></a>
+                <img src="imagenes/galeria/dos.jpg" alt="">
+                <a href="#image3" class="next"><i class="fas fa-arrow-right"></i></a>
+                <a href="#" class="close">X</a>
+            </article>
+
+            <article class="light-box" id="image3">
+                <a href="#image2" class="next"><i class="fas fa-arrow-left"></i></a>
+                <img src="imagenes/galeria/tres.jpg" alt="">
+                <a href="#image4" class="next"><i class="fas fa-arrow-right"></i></a>
+                <a href="#" class="close">X</a>
+            </article>
+
+            <article class="light-box" id="image4">
+                <a href="#image3" class="next"><i class="fas fa-arrow-left"></i></a>
+                <img src="imagenes/galeria/cuatro.jpg" alt="">
+                <a href="#image5" class="next"><i class="fas fa-arrow-right"></i></a>
+                <a href="#" class="close">X</a>
+            </article>
+
+            <article class="light-box" id="image5">
+                <a href="#image4" class="next"><i class="fas fa-arrow-left"></i></a>
+                <img src="imagenes/galeria/cinco.jpg" alt="">
+                <a href="#image6" class="next"><i class="fas fa-arrow-right"></i></a>
+                <a href="#" class="close">X</a>
+            </article>
+
+            <article class="light-box" id="image6">
+                <a href="#image5" class="next"><i class="fas fa-arrow-left"></i></a>
+                <img src="imagenes/galeria/seis.jpg" alt="">
+                <a href="#image7" class="next"><i class="fas fa-arrow-right"></i></a>
+                <a href="#" class="close">X</a>
+            </article>
+
+            <article class="light-box" id="image7">
+                <a href="#image6" class="next"><i class="fas fa-arrow-left"></i></a>
+                <img src="imagenes/galeria/siete.jpg" alt="">
+                <a href="#image8" class="next"><i class="fas fa-arrow-right"></i></a>
+                <a href="#" class="close">X</a>
+            </article>
+
+            <article class="light-box" id="image8">
+                <a href="#image7" class="next"><i class="fas fa-arrow-left"></i></a>
+                <img src="imagenes/galeria/ocho.jpg" alt="">
+                <a href="#image9" class="next"><i class="fas fa-arrow-right"></i></a>
+                <a href="#" class="close">X</a>
+            </article>
+
+            <article class="light-box" id="image9">
+                <a href="#image8" class="next"><i class="fas fa-arrow-left"></i></a>
+                <img src="imagenes/galeria/nueve.jpg" alt="">
+                <a href="#image10" class="next"><i class="fas fa-arrow-right"></i></a>
+                <a href="#" class="close">X</a>
+            </article>
+
+            <article class="light-box" id="image10">
+                <a href="#image9" class="next"><i class="fas fa-arrow-left"></i></a>
+                <img src="imagenes/galeria/diez.jpg" alt="">
+                <a href="#image1" class="next"><i class="fas fa-arrow-right"></i></a>
+                <a href="#" class="close">X</a>
+            </article-->
+        <!--/div-->
+
+        <div id="pie">
+            <div id="der">
+              <a class="menu01" href="https://www.facebook.com/happyclownutequito" target="_blank"><i class="fab fa-facebook-square"></i></i> Facebook</a></li>
+              <br>
+              <a class="menu01" href="https://www.instagram.com/happyclownutequito/" target="_blank"><i class="fab fa-instagram-square"></i> Instagram</a></li>
+              <br>
+              <a class="menu01" href="https://wa.me/593967962416" target="_blank"><i class="fab fa-whatsapp-square"></i>WhatsApp</a></li>
+            </div>
+            <div id="izq">
+              <p id="frase">Soy el loco que cree que la risa lo cura todo.</p>
+            </div>
+            </div>
+    </div>
+  </body>
+</html>
